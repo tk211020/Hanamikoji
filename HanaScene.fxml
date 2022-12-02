@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Control">
+   <children>
+      <ImageView fx:id="myhand7" fitHeight="144.0" fitWidth="96.0" layoutX="748.0" layoutY="713.0" onMouseClicked="#click7" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@pic/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="myhand1" fitHeight="144.0" fitWidth="96.0" layoutX="75.0" layoutY="712.0" onMouseClicked="#click1" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="myhand2" fitHeight="144.0" fitWidth="96.0" layoutX="185.0" layoutY="713.0" onMouseClicked="#click2" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="myhand3" fitHeight="144.0" fitWidth="96.0" layoutX="297.0" layoutY="713.0" onMouseClicked="#click3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="myhand4" fitHeight="144.0" fitWidth="96.0" layoutX="405.0" layoutY="713.0" onMouseClicked="#click4" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="myhand5" fitHeight="144.0" fitWidth="96.0" layoutX="517.0" layoutY="713.0" onMouseClicked="#click5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="myhand6" fitHeight="144.0" fitWidth="96.0" layoutX="629.0" layoutY="713.0" onMouseClicked="#click6" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="aif2card" fitHeight="144.0" fitWidth="96.0" layoutX="257.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@pic/backv.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="aif1card" fitHeight="144.0" fitWidth="96.0" layoutX="369.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@pic/backv.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="button2" alignment="CENTER" layoutX="1079.0" layoutY="852.0" mnemonicParsing="false" onMouseClicked="#okButton" text="ok" />
+      <ImageView fx:id="f2card" fitHeight="144.0" fitWidth="96.0" layoutX="976.0" layoutY="713.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@pic/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="p1" fitHeight="181.0" fitWidth="174.0" layoutX="61.0" layoutY="324.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@p5sak.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="p2" fitHeight="181.0" fitWidth="160.0" layoutX="203.0" layoutY="324.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@p4tea.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="p3" fitHeight="181.0" fitWidth="157.0" layoutX="345.0" layoutY="324.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@p3umb.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="p4" fitHeight="181.0" fitWidth="134.0" layoutX="486.0" layoutY="324.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@p3sha.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="p5" fitHeight="181.0" fitWidth="131.0" layoutX="629.0" layoutY="324.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@p2flu.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="p6" fitHeight="181.0" fitWidth="136.0" layoutX="766.0" layoutY="324.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@p2fan.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="p7" fitHeight="181.0" fitWidth="130.0" layoutX="903.0" layoutY="324.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@p2book.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="aihand1" fitHeight="144.0" fitWidth="96.0" layoutX="1157.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/backv.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="aihand2" fitHeight="144.0" fitWidth="96.0" layoutX="1046.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/backv.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="aihand3" fitHeight="144.0" fitWidth="96.0" layoutX="937.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/backv.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="aihand4" fitHeight="144.0" fitWidth="96.0" layoutX="825.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/backv.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="aihand5" fitHeight="144.0" fitWidth="96.0" layoutX="718.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/backv.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="aihand6" fitHeight="144.0" fitWidth="96.0" layoutX="613.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/backv.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="f2o" fitHeight="70.0" fitWidth="74.0" layoutX="987.0" layoutY="744.0" onMouseClicked="#act2" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/f2o.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="f3o" fitHeight="70.0" fitWidth="67.0" layoutX="1094.0" layoutY="744.0" onMouseClicked="#act3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/f3o.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="f4o" fitHeight="70.0" fitWidth="81.0" layoutX="1190.0" layoutY="743.0" onMouseClicked="#act4" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/f4o.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="f1p" fitHeight="76.0" fitWidth="73.0" layoutX="380.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/f1p.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="f2p" fitHeight="70.0" fitWidth="73.0" layoutX="269.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/f2p.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="f3p" fitHeight="70.0" fitWidth="73.0" layoutX="177.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/f3p.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="f4p" fitHeight="70.0" fitWidth="73.0" layoutX="75.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/f4p.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="remain" layoutX="1100.0" layoutY="324.0" text="剩下物品:" />
+      <Label fx:id="aicard1" layoutX="118.0" layoutY="295.0" text="0" />
+      <Label fx:id="mycard1" layoutX="119.0" layoutY="517.0" text="0" />
+      <Label fx:id="aicard2" layoutX="260.0" layoutY="295.0" text="0" />
+      <Label fx:id="mycard2" layoutX="260.0" layoutY="517.0" text="0" />
+      <Label fx:id="aicard3" layoutX="400.0" layoutY="295.0" text="0" />
+      <Label fx:id="mycard3" layoutX="400.0" layoutY="517.0" text="0" />
+      <Label fx:id="aicard4" layoutX="546.0" layoutY="295.0" text="0" />
+      <Label fx:id="mycard4" layoutX="546.0" layoutY="517.0" text="0" />
+      <Label fx:id="aicard5" layoutX="683.0" layoutY="295.0" text="0" />
+      <Label fx:id="mycard5" layoutX="683.0" layoutY="517.0" text="0" />
+      <Label fx:id="aicard6" layoutX="821.0" layoutY="295.0" text="0" />
+      <Label fx:id="mycard6" layoutX="821.0" layoutY="517.0" text="0" />
+      <Label fx:id="mycard7" layoutX="959.0" layoutY="517.0" text="0" />
+      <Label fx:id="aicard7" layoutX="959.0" layoutY="295.0" text="0" />
+      <Button fx:id="button1" alignment="CENTER" layoutX="1099.0" layoutY="618.0" mnemonicParsing="false" onAction="#buttonStart" text="start" />
+      <ImageView fx:id="aihand7" fitHeight="144.0" fitWidth="96.0" layoutX="506.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@pic/backv.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="hint" alignment="CENTER" contentDisplay="CENTER" layoutX="1049.0" layoutY="568.0" text="press start to start game" />
+      <ImageView fx:id="f1card" fitHeight="144.0" fitWidth="96.0" layoutX="873.0" layoutY="712.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@pic/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="f1o" fitHeight="70.0" fitWidth="73.0" layoutX="888.0" layoutY="743.0" onMouseClicked="#act1" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/f1o.png" />
+         </image>
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+      </ImageView>
+      <ImageView fx:id="choosed1" fitHeight="144.0" fitWidth="96.0" layoutX="75.0" layoutY="713.0" onMouseClicked="#canclick1" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@choosed.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="choosed3" fitHeight="144.0" fitWidth="96.0" layoutX="297.0" layoutY="713.0" onMouseClicked="#canclick3" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@choosed.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="choosed4" fitHeight="144.0" fitWidth="96.0" layoutX="405.0" layoutY="713.0" onMouseClicked="#canclick4" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@choosed.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="choosed5" fitHeight="144.0" fitWidth="96.0" layoutX="517.0" layoutY="713.0" onMouseClicked="#canclick5" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@choosed.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="choosed6" fitHeight="144.0" fitWidth="96.0" layoutX="629.0" layoutY="713.0" onMouseClicked="#canclick6" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@choosed.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="choosed7" fitHeight="144.0" fitWidth="96.0" layoutX="748.0" layoutY="713.0" onMouseClicked="#canclick7" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@choosed.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="choosed2" fitHeight="144.0" fitWidth="96.0" layoutX="185.0" layoutY="713.0" onMouseClicked="#canclick2" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@choosed.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="aifcard3" fitHeight="144.0" fitWidth="96.0" layoutX="581.0" layoutY="160.0" onMouseClicked="#fclick3" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@pic/backv.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="aifcard2" fitHeight="144.0" fitWidth="96.0" layoutX="469.0" layoutY="160.0" onMouseClicked="#fclick2" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@pic/backv.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="aifcard4" fitHeight="144.0" fitWidth="96.0" layoutX="691.0" layoutY="160.0" onMouseClicked="#fclick4" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@pic/backv.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="aifcard1" fitHeight="144.0" fitWidth="96.0" layoutX="360.0" layoutY="160.0" onMouseClicked="#fclick1" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@pic/backv.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="fchoosed4" fitHeight="144.0" fitWidth="96.0" layoutX="691.0" layoutY="160.0" onMouseClicked="#canfclick4" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@choosed.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="fchoosed2" fitHeight="144.0" fitWidth="96.0" layoutX="469.0" layoutY="160.0" onMouseClicked="#canfclick2" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@choosed.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="fchoosed1" fitHeight="144.0" fitWidth="96.0" layoutX="360.0" layoutY="161.0" onMouseClicked="#canfclick1" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@choosed.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="button3" layoutX="817.0" layoutY="215.0" mnemonicParsing="false" onMouseClicked="#buttonRcv" text="receive" visible="false" />
+      <ImageView fx:id="fchoosed3" fitHeight="144.0" fitWidth="96.0" layoutX="581.0" layoutY="160.0" onMouseClicked="#canfclick3" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@choosed.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="deck" fitHeight="144.0" fitWidth="96.0" layoutX="1078.0" layoutY="348.0" onMouseClicked="#drawDeck" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rule" fitHeight="586.0" fitWidth="800.0" layoutX="269.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@r1.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="button4" layoutX="634.0" layoutY="864.0" mnemonicParsing="false" onMouseClicked="#buttonRule" text="rule" />
+   </children>
+</Pane>
